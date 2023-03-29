@@ -11,12 +11,3 @@
         <q-btn color="black" label="Black" />
     </div>
 </template>
-<script lang="ts" setup>
-const q$ = useQuasar()
-onMounted ( () => {
-    q$.notify({
-        message: 'Jim pinged you.',
-        color: 'purple'
-    })
-})
-</script>
